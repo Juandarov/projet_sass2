@@ -17,7 +17,7 @@ h1 {
   color: white;
   margin: 0;
   text-transform: uppercase;
-  font-family: serif; }
+  font-family: century schoolbook; }
 
 h2 {
   color: white;
@@ -82,7 +82,7 @@ footer {
   footer ul {
     padding: 0; }
   footer li {
-    color: white;
+    color: grey;
     list-style: none; }
   footer article {
     width: 100%; }
