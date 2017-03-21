@@ -29,13 +29,54 @@ h2 {
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
-  padding: 0.5em 2em; }
+  padding: 0.75em 2em; }
 
+@media (min-width: 992px) {
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+  .navbar {
+    border: none;
+    background-color: #281400;
+    border-radius: 0; }
+
+  .title {
+    padding: 3em 0 6em 0; }
+    .title h1, .title h2 {
+      width: 30%;
+      margin: auto;
+      padding: 0.5em 0; }
+    .title button {
+      width: 20%;
+      margin: auto;
+      font-size: 10px; } }
 h3 {
   text-align: center;
   text-transform: capitalize;
   font-family: serif; }
 
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+main article {
+  width: 45%;
+  display: inline-block;
+  text-align: center; }
+
+@media (min-width: 992px) {
+  body {
+    width: 992px;
+    margin: auto; }
+
+  main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  main article {
+    width: 15%; } }
 footer {
   background-color: #0F3E57; }
   footer ul {

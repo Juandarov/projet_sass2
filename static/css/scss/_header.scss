@@ -35,5 +35,38 @@ h2 {
     text-transform: uppercase;
     border: none;
     border-radius: 5px;
-    padding: 0.5em 2em;
+    padding: 0.75em 2em;
+}
+
+// WEB
+@media (min-width:992px) {
+
+    .nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar {
+        border: none;
+        background-color: #281400;
+        border-radius: 0;
+    }
+
+    .title {
+        padding: 3em 0 6em 0;
+
+        h1, h2 {
+            width: 30%;
+            margin: auto;
+            padding: 0.5em 0;
+        }
+
+        button {
+            width: 20%;
+            margin: auto;
+            font-size: 10px;
+        }
+    }
+
 }
