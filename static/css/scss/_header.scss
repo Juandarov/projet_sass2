@@ -1,0 +1,39 @@
+// MOBILE
+.navbar-header {}
+
+.navbar {
+    margin: 0;
+}
+
+nav {
+    a {
+        text-transform: capitalize;
+    }
+}
+
+.title {
+    text-align: center;
+    background-color: #281400;
+    padding: 2em 0;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+h2 {
+    color: white;
+    font-family: serif;
+}
+
+.title button {
+    background-color: #A28F61;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "projet_SASS2",
+  "homepage": "https://github.com/Juandarov/projet_sass2",
+  "authors": [
+    "juandarov <juandarov@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/external/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
