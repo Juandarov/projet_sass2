@@ -22,11 +22,13 @@ h1 {
     margin: 0;
     text-transform: uppercase;
     font-family: century schoolbook;
+    font-size: 40px;
 }
 
-h2 {
+header p {
     color: white;
     font-family: serif;
+    font-size: 30px;
 }
 
 .title button {
@@ -100,7 +102,7 @@ h2 {
     .title {
         padding: 3em 0 6em 0;
 
-        h1, h2 {
+        h1, p {
             width: 30%;
             margin: auto;
             padding: 0.5em 0;
