@@ -17,8 +17,8 @@ h1 {
   color: white;
   margin: 0;
   text-transform: uppercase;
-  font-family: century schoolbook;
-  font-size: 40px; }
+  font-family: 'Diplomata SC', cursive;
+  font-size: 35px; }
 
 header p {
   color: white;
@@ -31,7 +31,9 @@ header p {
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
-  padding: 0.75em 2em; }
+  width: 60%;
+  margin: auto;
+  font-size: 10px; }
 
 .feedback-button {
   display: inline-block;
@@ -40,7 +42,6 @@ header p {
   box-sizing: content-box;
   position: relative;
   cursor: pointer;
-  margin: 0 2% 0 0;
   padding: 12px 22px;
   overflow: hidden;
   border: none;

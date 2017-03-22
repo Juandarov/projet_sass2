@@ -135,65 +135,18 @@ article h6 {
       padding: 2em 0; } }
 h2 {
   text-align: center;
-  font-family: century schoolbook; }
-
-h3 {
-  text-align: center;
   text-transform: capitalize; }
-
-#imagesProduct {
-  border: none; }
-
-.allpictures {
-  display: flex; }
-  .allpictures img {
-    padding: 0.25em; }
-
-div.row:nth-child(5) {
-  display: flex; }
-
-.dropdown {
-  width: 30%; }
-
-#dropdownMenu1 {
-  margin: 0.5em 0; }
-
-#description > p:nth-child(6) {
-  margin: 1em 0; }
 
 @media (min-width: 992px) {
   body {
     width: 992px;
     margin: auto; }
 
-  h2 {
-    margin: 1em 0 2em 0; }
-
   main section {
     width: 90%;
-    margin: auto; }
-
-  #imagesProduct {
+    margin: auto;
     border: solid 2px #0F3E57;
-    border-radius: 10px;
     padding: 1em;
-    text-align: center; }
-    #imagesProduct img {
-      margin: 0.5em;
-      margin: auto; }
+    border-radius: 10px; } }
 
-  #description h3 {
-    text-transform: capitalize;
-    text-align: left; }
-  #description p:nth-child(2) {
-    font-style: italic; }
-  #description .row {
-    display: flex; }
-  #description .dropdown {
-    width: 20%; }
-  #description #dropdownMenu1 {
-    margin: 0.5em 0; }
-  #description p:nth-child(6) {
-    margin-top: 2em; } }
-
-/*# sourceMappingURL=product.css.map */
+/*# sourceMappingURL=aboutus.css.map */

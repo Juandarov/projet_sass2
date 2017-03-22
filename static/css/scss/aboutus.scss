@@ -1,0 +1,35 @@
+.container, .row {
+    padding: 0;
+    margin: 0;
+}
+
+// IMPORTS
+@import "header";
+@import "footer";
+//
+
+// ALL
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+// WEB
+@media (min-width:992px) {
+    body {
+        width: 992px;
+        margin: auto;
+    }
+
+    main {
+
+        section {
+            width: 90%;
+            margin: auto;
+            border: solid 2px #0F3E57;
+            padding: 1em;
+            border-radius: 10px;
+        }
+    }
+
+}

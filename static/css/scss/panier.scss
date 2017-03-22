@@ -1,0 +1,58 @@
+.container, .row {
+    padding: 0;
+    margin: 0;
+}
+
+// IMPORTS
+@import "header";
+@import "footer";
+
+//
+
+// ALL
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.col-xs-4, .col-xs-8 > div:nth-child(1), .col-xs-5, .col-xs-2 {
+    padding: 0;
+    text-align: center;
+}
+
+div.produit {
+    margin: 1em 0;
+
+    padding: 0.25em;
+}
+
+.price {
+    border: solid 3px rgb(255, 83, 83);
+    border-radius: 5px;
+    width: 50%;
+    margin: 0.25em auto;
+    padding: 0.25em;
+}
+
+// WEB
+@media (min-width:992px) {
+    body {
+        width: 992px;
+        margin: auto;
+    }
+
+    main {
+
+        section {
+            width: 90%;
+            margin: auto;
+        }
+
+        div.produit {
+            margin: 2em 0;
+            border: solid 2px #0F3E57;
+            border-radius: 10px;
+            padding: 0.5em;
+        }
+    }
+}
