@@ -8,3 +8,11 @@
 @import "main";
 @import "footer";
 //
+
+// WEB
+@media (min-width:992px) {
+    body {
+        width: 992px;
+        margin: auto;
+    }
+}
