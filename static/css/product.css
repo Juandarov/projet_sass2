@@ -153,12 +153,20 @@ h2 {
     border-radius: 10px;
     padding: 1em;
     text-align: center; }
+    #imagesProduct img {
+      margin: 0.5em; }
 
   #description h3 {
     text-transform: capitalize; }
   #description p:nth-child(2) {
     font-style: italic; }
+  #description .row {
+    display: flex; }
+  #description .dropdown {
+    width: 20%; }
   #description #dropdownMenu1 {
-    margin: 0.5em 0; } }
+    margin: 0.5em 0; }
+  #description p:nth-child(6) {
+    margin-top: 2em; } }
 
 /*# sourceMappingURL=product.css.map */
